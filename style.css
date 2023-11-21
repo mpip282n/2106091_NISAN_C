@@ -1,0 +1,40 @@
+/* style.css */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  /* margin: auto; */
+  background: hwb(0 75% 5%);
+}
+
+.kotak {
+  text-align: center;
+  width: 500px;
+  border: 1px solid black;
+  background: #ff1493;
+  margin: 30px auto;
+  padding: 30px 20px;
+}
+.form-input {
+  text-align: left;
+  padding: 10px;
+  background-color: palevioletred;
+  border-radius: 5px;
+  border: 10px;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+#btn-kirim {
+  background-color: palevioletred;
+  color: hwb(0 75% 5%);
+  padding: 10px;
+  border-radius: 5px;
+  border: 10px;
+  margin-bottom: 12px;
+}
+
+#btn-kirim:hover {
+  background: hwb(0 75% 5%);
+  color: palevioletred;
+  /*position: relative;
+    top: 60px;*/
+}
